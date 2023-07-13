@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>科安软件 - 专注于网络安全，以核心技术和专业服务成就客户</title>
+<meta name="Keywords" content="网络安全、内网安全、安全态势感知、全流量安全分析、视频安全审计、网络安全审计、应用安全审计、网络资产管理、安全访问身份认证、网络安全检测分析">
+<meta name="Description" content="科安软件专注于网络安全领域，坚持自主设计自主研发，全线产品适配国产服务器和操作系统，自主可控安全可靠。产品线涵盖网络安全、安全态势感知、全流量安全分析、视频安全审计、网络安全审计、应用安全审计、网络资产管理、安全访问身份认证、网络安全检测分析，行业应用广泛，参与多项军工、航天、公安行业的网络安全规划和标准编制。">
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+
+<link href="css/kean.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<!--Favicon-->
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/iconfont/iconfont.css">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<style>
+
+
+
+
+</style>
+<script>
+  //to keansoft url
+  var mobileUrl = 'https://mp.weixin.qq.com/s/NRmJmtY2DU5C9P_-oV29kA';
+  var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+  var browser = navigator.userAgent.toLowerCase(); 
+  var isMobile = false; 
+  for (var i=0; i<mobileAgent.length; i++){
+      if (browser.indexOf(mobileAgent[i])!=-1){ 
+          isMobile = true; 
+          break;
+      }
+  }
+  if(isMobile){
+      //当前是手机或平板等小屏设备浏览，自动跳转到手机能访问的适屏地址
+      location.href = mobileUrl;
+  }
+  </script>
+</head>
+
+<body>
+<div class="page-wrapper"> 
+  
+  <!-- Preloader -->
+  <div class="preloader"></div>
+  
+  <!-- Main Header-->
+  <header class="main-header">
+    <div class="header-top">
+      <div class="auto-container clearfix"> 
+        <!--Top Left-->
+        <div class="top-left pull-left">
+          
+        </div>
+        
+        <!--Top Right-->
+        <div class="top-right pull-right"> 
+          <!--Links Nav-->
+          <ul class="links-nav">
+            <li><a href="#">设为首页</a></li>
+            <li><a href="#">加为收藏</a></li>
+            <li><a href="#">获取帮助</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!--Header-Upper-->
+    <div class="header-upper">
+      <div class="auto-container">
+        <div class="clearfix">
+          <div class="pull-left logo-outer">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="Bristol"></a></div>
+          </div>
+          <div class="pull-right upper-right clearfix"> 
+            
+            <!--Info Box-->
+           
+            
+            <!--Info Box-->
+            <div class="upper-column info-box">
+              <div class="icon-box"><span class="icon iconfont icon-dianhua"></span></div>
+              联系我们
+              <div class="light-text">400-639-0809</div>
+            </div>
+            
+            <!--Info Box-->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End header upter-->
+    <!--Header-Lower-->
+    <div class="header-lower">
+      <div class="auto-container">
+        <div class="nav-outer clearfix"> 
+          <!-- Main Menu -->
+          <nav class="main-menu">
+            <div class="navbar-header"> 
+              <!-- Toggle Button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="navbar-collapse collapse clearfix">
+              <ul class="navigation clearfix">
+                <li><a href="#">首页</a>
+                 
+                </li>
+                <li><a href="about-us.html">公司介绍</a></li>
+                <li class="dropdown"><a href="#">核心产品</span></a>
+                  <ul>
+                   <li><a href="product1.html">科安视频安全审计系统</a></li>
+                    <li><a href="product2.html">科安微警局系统</a></li>
+                    <li><a href="product3.html">科安医院防统方系统</a></li>
+                  </ul>
+                </li>
+                <li><a href="case.html">典型案例</a>
+                  <!--<ul>
+                    <li><a href="gallery.html">典型案例1</a></li>
+                    <li><a href="gallery-single.html">典型案例2</a></li>
+                  </ul>
+                  -->
+                </li>
+                <li ><a href="news-list.html">新闻资讯</a>
+                  <!--<ul>
+                    <li><a href="#">新闻类型1</a></li>
+                    <li><a href="blog-list.html">新闻类型2</a></li>
+                    <li><a href="#">新闻类型3</a></li>
+                  </ul>-->
+                </li>
+                
+                <li><a href="contact.html">联系我们</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Main Menu End-->
+          
+          <div class="outer-btn"><a href="contact.html" class="theme-btn consultation">获取咨询</a></div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Sticky Header-->
+    <div class="sticky-header">
+      <div class="auto-container clearfix"> 
+        <!--Logo-->
+        <div class="logo pull-left"> <a href="index.html" class="img-responsive"><img src="images/logo-small.png" alt="Bristol"></a></div>
+        
+        <!--Right Col-->
+        <div class="right-col pull-right"> 
+          <!-- Main Menu -->
+          <nav class="main-menu">
+            <div class="navbar-header"> 
+              <!-- Toggle Button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="navbar-collapse collapse clearfix">
+              <ul class="navigation clearfix">
+                <li><a href="#">首页</a>
+                 
+                </li>
+                <li><a href="about-us.html">公司介绍</a></li>
+                <li class="dropdown"><a href="#">核心产品</a>
+                  <ul>
+                    <li><a href="product1.html">科安视频安全审计系统</a></li>
+                    <li><a href="product2.html">科安微警局系统</a></li>
+                    <li><a href="product3.html">科安医院防统方系统</a></li>
+                  </ul>
+                </li>
+                <li><a href="case.html">典型案例</a>
+                  <!--<ul>
+                    <li><a href="gallery.html">典型案例1</a></li>
+                    <li><a href="gallery-single.html">典型案例2</a></li>
+                  </ul>
+                  -->
+                </li>
+                <li ><a href="news-list.html">新闻资讯</a>
+                  <!--<ul>
+                    <li><a href="#">新闻类型1</a></li>
+                    <li><a href="blog-list.html">新闻类型2</a></li>
+                    <li><a href="#">新闻类型3</a></li>
+                  </ul>-->
+                </li>
+                
+                <li><a href="contact.html">联系我们</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Main Menu End-->
+        </div>
+      </div>
+    </div>
+    <!--End Sticky Header--> 
+    
+  </header>
+  <!--End Main Header --> 
+  <section  class="main-banner"  data-start-height="420" data-slide-overlay="yes">
+ <div class="">
+  <div class="banner" id="b04">
+    
+    <ul>
+       <li>
+      
+       <div class="slide slide1" >
+          <div class="overlay">
+		       <div class="text" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">西安科安软件有限责任公司</div>
+               <h2 data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">以客户需求为导向，以技术创新为指南，以“下一代安全架构”<br>的理论为基础，发展科技信息安全业务，帮助客户创造更大的价值。</h2>
+               <div class="btn-box" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;"><a href="contact.html" class="theme-btn btn-style-one">联系我们</a>
+             </div>
+           </div>
+        </div>
+        </li>
+
+        <li>
+       
+         <div class="slide slide2">
+           <div class="overlay">
+		      <div class="text second-act">科安视频安全审计系统</div>
+              <h2>解决5大安全风险</h2>
+              <!--solve problems-->
+             <div class="row solve-problems">
+                 <div class="risk col-md-2 col-sm-2 col-xs-5 col-sm-offset-1">
+        	       <div class="icon-box"><span class="icon iconfont icon-ruqinbaojing"></span></div>
+        	       <h3><a href="services-single.html">解决前端设备入侵风险</a></h3>
+                 </div>
+                 <div class="risk col-md-2 col-sm-2 col-xs-5">
+        	       <div class="icon-box"><span class="icon iconfont icon-gongjifanghu"></span></div>
+        	       <h3><a href="services-single.html">解决来自内部的网络攻击</a></h3>
+               </div>
+                 <div class="risk col-md-2 col-sm-2 col-xs-5">
+        	       <div class="icon-box"><span class="icon iconfont icon-yujing"></span></div>
+        	       <h3>解决外部接入的安全风险</h3>
+                </div>
+                <div class="risk col-md-2 col-sm-2 col-xs-5">
+        	       <div class="icon-box"><span class="icon iconfont icon-shishijiankong"></span></div>
+        	       <h3>解决系统平台安全风险</h3>
+                </div>
+                 <div class="risk col-md-2 col-sm-2 col-xs-5">
+        	        <div class="icon-box"><span class="icon iconfont icon-chuanshu"></span></div>
+        	        <h3>解决视频传输的安全风险</h3>
+                </div>
+                </div>
+			 </div>
+        
+        <!--End solve problems-->
+        </div>
+        </li>
+
+        <li>
+        <div class="slide slide3" style="  background-color: #774545;  ">
+            <div class="overlay">
+             <div class="text" >西安科安软件有限责任公司</div>
+                <h2 >拥有完全自主知识产权的网络安全产品、安全管理平台、<br>安全服务与解决方案的综合提供商。</h2>
+                <div class="btn-box" ><a href="about-us.html" class="theme-btn btn-style-one">了解详情</a>
+             </div>
+			</div>
+        </div>
+        
+        </li>
+
+
+    </ul>
+
+    
+    <a href="javascript:void(0);" class="unslider-arrow04 prev"><div class="arrow" id="al" ><span class="icon iconfont icon-arrow-left"></span> </div></a>
+
+    <a href="javascript:void(0);" class="unslider-arrow04 next"><div class="arrow" id="ar" > <span class="icon iconfont icon-arrow"></span> </div></a>
+
+</div>
+</div>
+</section>
+
+  <!--Services Section-->
+  <section class="services-section">
+    <div class="auto-container"> 
+      <!--Sec Title-->
+      <div class="sec-title">
+        <h2>科安视频安全审计系统</h2>
+        <div class="text">科安视频联网安全管理平台，是一个以视频设备管理为基础，以网络摄像机操作审计为核心，从管理、监控、行为审计和运维四个维度建立起来的一套可度量的安全管理平台。本系统可实现对视频专网的业务、应用、终端、服务器、网络设备、视频设备等的集中化监管，以及视频设备的注册管理、日志审计。使用户能够对接入视频设备的运行状况进行全面监督控制，变“被动防御、被动管理”为“主动防御、主动管理”。</div>
+      </div>
+      <div class="outer-box" style="background-image: url(images/background/dotted-map.png);">
+        
+        
+        <div class="row clearfix"> 
+          
+          <!--Left Column-->
+          <div class="left-column col-md-4 col-sm-6 col-xs-12 pull-left"> 
+            <!--Service Block One-->
+            <div class="service-block-one">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-jiankongshebei"></span> </div>
+                <h3><a href="#">支持主流厂商视频设备</a></h3>
+                <div class="text">支持视频监控联网标准GB/T28181。支持市面主流安防厂商的视频服务器和网络摄像机等视频设备，包括：海康威视、大华、东方网力、英飞拓等品牌产品。 </div>
+              </div>
+            </div>
+            
+            <!--Service Block One-->
+            <div class="service-block-one">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-jiankong2"></span> </div>
+                <h3><a href="#">监控全面</a></h3>
+                <div class="text">可以对视频专网设备的运行状态进行实时监控，任何对前端设备的访问和连接都会触发安全管理系统的监控机制。</div>
+              </div>
+            </div>
+            
+            <!--Service Block One-->
+            <div class="service-block-one">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-rizhi"></span> </div>
+                <h3><a href="#">全面的日志采集和视频操作审计</a></h3>
+                <div class="text">可以对部署的各厂家的视频服务器和网络摄像机的操作进行采集和审计，包括设备操作时间、操作命令、操作参数、源IP地址、目标IP地址等。</div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Right Column-->
+          <div class="right-column col-md-4 col-sm-6 col-xs-12 pull-right"> 
+            <!--Service Block Two-->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-yichangjiankong"></span> </div>
+                <h3><a href="#">异常分析、告警、阻断</a></h3>
+                <div class="text">能够对日志进行自动分析，并对异常操作进行告警。同时能够对违反安全管理规范的行为进行阻断，从而有效保障视频专网的信息安全。 </div>
+              </div>
+            </div>
+            
+            <!--Service Block Two-->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-jiankong3"></span> </div>
+                <h3><a href="#">零风险部署</a></h3>
+                <div class="text">以旁路方式，依靠“接入交换机”或者“核心交换机”的镜像功能部署到网络中。</div>
+              </div>
+            </div>
+            
+            <!--Service Block Two-->
+            <div class="service-block-two">
+              <div class="inner-box">
+                <div class="icon-box"> <span class="icon iconfont icon-gaoxiao"></span> </div>
+                <h3><a href="#">稳定高效</a></h3>
+                <div class="text">万兆线性采集技术：采用高性能网络I/O框架，实现1G~10G数据流量的快速采集、分析。</div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Image Column-->
+          <div class="image-column col-md-4 col-sm-12 col-xs-12">
+            <figure class="image-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms"><a href="product1.html"> <img src="images/resource/product.png" alt="" /></a> </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Services Section--> 
+  
+  <!--Advantage Section-->
+  <section class="advantage-section" style="background-image:url(images/background/1.jpg);">
+    <div class="auto-container"> 
+      <!--Sec Title Two-->
+      <div class="sec-title-two">
+        <h2>主要产品</h2>
+        <div class="text">主要产品展示</div>
+      </div>
+      <!--End Sec Title Two-->
+      
+      <div class="row clearfix"> 
+        
+        <!--Advantage Block-->
+        <div class="advantage-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <figure class="image-box"> <a href="product1.html"><img src="images/resource/adventure-1.jpg" alt="" /></a>
+              <div class="icon-box"><span>01</span></div>
+            </figure>
+            <div class="lower-content">
+              <div class="inner">
+                <h3><a href="product1.html">科安视频安全审计系统</a></h3>
+                <div class="text">科安视频联网安全管理平台，是一个以视频设备管理为基础，以网络摄像机操作审计为核心，从管理、监控、行为审计和运维四个维度建立起来的一套可度量的安全管理平台。
+</div>
+                <a class="read-more" href="product1.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Advantage Block-->
+        <div class="advantage-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+            <figure class="image-box"> <a href="product2.html"><img src="images/resource/adventure-2.jpg" alt="" /></a>
+              <div class="icon-box"><span >02</span></div>
+            </figure>
+            <div class="lower-content">
+              <div class="inner">
+                <h3><a href="product2.html">科安微警局系统</a></h3>
+                <div class="text">科安微警局系统可以为地市公安局及派出所提供与公众的交互平台。
+公众通过微警局系统可以完成户口办理、居住证办理、网上报案、出租房屋管理、违法犯罪举报、紧急报警等功能。
+</div>
+                <a class="read-more" href="product2.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            </div>
+          </div>
+        </div>
+         <!--Advantage Block-->
+        <div class="advantage-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+            <figure class="image-box"> <a href="product3.html"><img src="images/resource/adventure-3.jpg" alt="" /></a>
+              <div class="icon-box"><span >03</span></div>
+            </figure>
+            <div class="lower-content">
+              <div class="inner">
+                <h3><a href="product3.html">科安医院防统方系统</a></h3>
+                <div class="text">“统方”是建立医药回扣黑链的重要一环，是国家和媒体关注的重要社会焦点问题。
+目前很多医院已经建立了防统方系统，但是出售“统方”的信息屡禁不止，甚至大量患者信息泄露的事件时有发生。
+
+</div>
+                <a class="read-more" href="product3.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            </div>
+          </div>
+        </div>
+        
+            
+      </div>
+    </div>
+  </section>
+  <!--End Advantage Section--> 
+  
+  <!--Testimonial Section-->
+  <section class="testimonial-section">
+    <div class="auto-container">
+      <h2>应用案例</h2>
+      
+      <!--Three Item Carousel-->
+      <div class="three-item-carousel"> 
+        <!--Testimonial Block One-->
+        <div class="testimonial-block-one">
+          <div class="inner-box">
+            <div class="author-info">
+              <div class="author-image"> <img src="images/resource/author-1.jpg" alt="" /> </div>
+              <h3>延安市公安局</h3>
+              <div class="designation">2016.9.30</div>
+              <!--Rating-->
+              <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-half-empty"></span> </div>
+            </div>
+            <div class="text">延安市公安局作为试点单位，部署科安视频安全审计系统后，实现了对视频网部署视频摄像机的准入管理，配合视频联网平台操作审计，降低了视频图像信息的泄露风险，提升了视频网的安全性。
+             <a class="read-more" href="case.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            <!--Author Info-->
+            
+          </div>
+        </div>
+        
+        <!--Testimonial Block One-->
+        <div class="testimonial-block-one">
+          <div class="inner-box">
+            <div class="author-info">
+              <div class="author-image"> <img src="images/resource/author-2.jpg" alt="" /> </div>
+              <h3>延安市公安局</h3>
+              <div class="designation">2016.11.20</div>
+              <!--Rating-->
+              <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-half-empty"></span> </div>
+            </div>
+            <div class="text">延安市公安局作为试点单位，部署科安视频安全审计系统后，实现了对视频网部署视频摄像机的准入管理，配合视频联网平台操作审计，降低了视频图像信息的泄露风险，提升了视频网的安全性。
+             <a class="read-more" href="case.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            <!--Author Info-->
+            
+          </div>
+        </div>
+        
+        <!--Testimonial Block One-->
+        <div class="testimonial-block-one">
+          <div class="inner-box">
+            <div class="author-info">
+              <div class="author-image"> <img src="images/resource/author-3.jpg" alt="" /> </div>
+              <h3>陕西省公安厅</h3>
+              <div class="designation">2016.9.23</div>
+              <!--Rating-->
+              <div class="rating"> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-half-empty"></span> </div>
+            </div>
+            <div class="text">陕西省公安厅科信处在对三种视频安全审计方案进行评估后，选择在科安视频安全审计系统的基础上结合陕西省的实际情况，制定了有针对性的视频安全审计建设方案。科安视频安全审计系统是陕西省公安厅科信处与西安科安软件有限责任公司合作研发的产品。通过本次的产品合作，实现了产学研的尝试，合作双方都获得了较满意的结果。
+             <a class="read-more" href="case.html">详情 <span class="icon iconfont icon-arrow"></span></a> </div>
+            <!--Author Info-->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Testimonial Section--> 
+           
+  <!--News Section-->
+  <section class="news-section">
+    <div class="auto-container"> 
+      <!--Sec Title-->
+      <div class="sec-title">
+        <h2>新闻资讯</h2>
+        <a class="read-more" href="news-list.html">更多<span class="icon iconfont icon-arrow"></span></a>
+        <div class="text">展示公司内部新闻以及行业动向</div>
+      </div>
+      <!--Sec Title-->
+      
+      <div class="row clearfix"> 
+        
+        <!--News Block-->
+        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+            <div class="image-box"> <a href="news5.html"><img src="images/resource/news5.png" alt="" /></a> 
+              <!--overlay box-->
+              <ul class="post-meta clearfix">
+                <li>
+                  <div class="inner"><a href="news5.html"><span class="icon iconfont icon-jiankong2"></span>
+                    查看</a></div>
+                </li>
+              </ul>
+            </div>
+            <div class="lower-content">
+              <ul class="posted">
+                <li><span class="icon flaticon-calendar"></span> 2017.5.31</li>
+                
+              </ul>
+              <h3><a href="news5.html">科安视频联网安全审计系统取得公安部销售许可证</a></h3>
+              <div class="text">西安科安软件公司所研发的视频联网安全审计系统一次性通过了公安部信息安全产品检测中心的产品鉴定，取得了公安部安全产品销售许可证。</div>
+            </div>
+          </div>
+        </div>
+        <!--End News Block--> 
+        
+        <!--News Block-->
+        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+            <div class="image-box"> <a href="news2.html"><img src="images/resource/news-2.jpg" alt="" /></a> 
+              <!--overlay box-->
+              <ul class="post-meta clearfix">
+                <li>
+                  <div class="inner"><a href="news2.html"><span class="icon iconfont icon-jiankong2"></span>
+                    查看</a></div>
+                </li>
+              </ul>
+            </div>
+            <div class="lower-content">
+              <ul class="posted">
+                <li><span class="icon flaticon-calendar"></span> 2017.5.23</li>
+                
+              </ul>
+              <h3><a href="news2.html">科安视频安全审计系统 亮相2017西安安防博览会</a></h3>
+              <div class="text">2017年5月23日，伴随着各位安防同仁的期待，迎来2017中国（西安）国际社会公共安全产品智慧城市、智慧交通暨警察反恐技术装备博览会（以下简称展会）,本次展会在西安国际会展中心如期举行。</div>
+            </div>
+          </div>
+        </div>
+        <!--End News Block--> 
+        
+        <!--News Block-->
+        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+          <div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+            <div class="image-box"> <a href="news4.html"><img src="images/resource/news-4.png" alt="" /></a> 
+              <!--overlay box-->
+              <ul class="post-meta clearfix">
+                <li>
+                  <div class="inner"><a href="news4.html"><span class="icon iconfont icon-jiankong2"></span>
+                    查看</a></div>
+                </li>
+               
+              </ul>
+            </div>
+            <div class="lower-content">
+              <ul class="posted">
+                <li><span class="icon flaticon-calendar"></span>2017.5.20</li>
+              
+              </ul>
+              <h3><a href="news4.html">2017中国西安国际社会公共安全产品暨警察反恐技术装备博览会</a></h3>
+              <div class="text">随着我国‘一带一路’国家战略全面实施，西安安博会已成为中西部安防第一品牌展会，是中西部安防产业发展的风向标。“科安视频安全审计系统”本次作为主办方陕西公安厅的科技成果进行展示。</div>
+            </div>
+          </div>
+        </div>
+        <!--End News Block--> 
+      </div>
+    </div>
+  </section>
+  <!--News Section-->     
+  
+  <!--Why Us Section-->
+  <section class="why-us-section">
+    <div class="auto-container">
+      <div class="row clearfix"> 
+        <!--Content Column-->
+        <div class="content-column col-md-6 col-sm-12 col-xs-12"> 
+          <!--Sec Title Three-->
+          <div class="sec-title-three">
+            <h2>选择我们的理由</h2>
+            <div class="text">拥有完全自主知识产权的网络安全产品、安全管理平台、安全服务与解决方案。</div>
+          </div>
+          <!--End Sec Title Three--> 
+          
+          <!--Service Block Two-->
+          <div class="service-block-two style-two">
+            <div class="inner-box">
+              <div class="icon-box"> <span class="icon iconfont icon-zhishi"></span> </div>
+              <h3><a href="about-us.html">完全自主知识产权</a></h3>
+              <div class="text">拥有完全自主知识产权的网络安全产品、安全管理平台、安全服务与解决方案的综合提供商。</div>
+            </div>
+          </div>
+          
+          <!--Service Block Two-->
+          <div class="service-block-two style-two">
+            <div class="inner-box">
+              <div class="icon-box"> <span class="icon iconfont icon-technologylogy"></span> </div>
+              <h3><a href="about-us.html">技术创新为指南</a></h3>
+              <div class="text">公司宗旨：以客户需求为导向，以技术创新为指南。</div>
+            </div>
+          </div>
+          
+          <!--Service Block Two-->
+          <div class="service-block-two style-two">
+            <div class="inner-box">
+              <div class="icon-box"> <span class="icon iconfont icon-beidoushangyejiazhi"></span> </div>
+              <h3><a href="about-us.html">帮助客户创造更大的价值</a></h3>
+              <div class="text">以“下一代安全架构”的理论为基础，发展科技信息安全业务，帮助客户创造更大的价值。</div>
+            </div>
+          </div>
+        </div>
+        <!--Counter Column-->
+        <div class="counter-column col-md-6 col-sm-12 col-xs-12" style="height: 460px; background-image:url(images/resource/choose-us.jpg);">
+          <div class="fact-counter">
+            <div class="clearfix"> 
+              
+              <!--Column-->
+              <div class="inner-column light-bg counter-column wow fadeIn" data-wow-delay="0ms">
+                <div class="inner">
+                  <div class="count-outer"> <span class="count-text" >知识产权</span> </div>
+                  <h4 class="counter-title">Intellectual property rights</h4>
+                </div>
+              </div>
+              
+              <!--Column-->
+              <div class="inner-column counter-column wow fadeIn" data-wow-delay="0ms">
+                <div class="inner">
+                  <div class="count-outer"> <span class="count-text" >自主研发</span> </div>
+                  <h4 class="counter-title">Independent research</h4>
+                </div>
+              </div>
+              
+              <!--Column-->
+              <div class="inner-column counter-column wow fadeIn" data-wow-delay="0ms">
+                <div class="inner">
+                  <div class="count-outer"> <span class="count-text" >网络安全</span> </div>
+                  <h4 class="counter-title">Network security</h4>
+                </div>
+              </div>
+              
+              <!--Column-->
+              <div class="inner-column light-bg counter-column wow fadeIn" data-wow-delay="0ms">
+                <div class="inner">
+                  <div class="count-outer"> <span class="count-text" >技术创新</span> </div>
+                  <h4 class="counter-title">Technology innovation</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Why Us Section--> 
+  
+
+  <!--sponsors style One -->
+  
+  <section class="sponsors-style-one">
+    <div class="auto-container">
+      <div class="sponsors-outer"> 
+     
+        <ul class="sponsors-carousel">
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/6.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/7.png" alt=""></a></figure>
+          </li>
+          <li class="slide-item">
+            <figure class="image-box"><a href="#"><img src="images/clients/8.png" alt=""></a></figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section> 
+  <!--sponsors style One--> 
+  
+   <!--Main Footer-->
+  <footer class="main-footer">
+    <div class="auto-container">
+      <div class="row clearfix"> 
+        
+        <!--Big Column-->
+        <div class="big-column col-md-3 col-sm-12 col-xs-12">
+          <div class="row clearfix"> 
+            
+            <!--Footer Column / About Widget-->
+            
+            <!--Footer Column / Links Widget-->
+            <div class="footer-column col-md-5 col-sm-6 col-xs-12">
+             <div class="logo"><a href="index.html"><img src="images/logo-white.png" alt="" title="Bristol"></a></div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Big Column-->
+        <div class="big-column col-md-9 col-sm-12 col-xs-12">
+          <div class="auto-container">
+              <div class="upper-column info-box">
+              <div class="icon-box"><span class="icon iconfont icon-dianhua"></span></div>
+              联系我们
+              <div class="light-text">400-639-0809</div>
+            </div>
+            
+            
+            <!--Info Box-->
+            <div class="upper-column info-box">
+              <div class="icon-box"><span class="icon iconfont icon-youxiang"></span></div>
+              公司邮箱
+              <div class="light-text">support@eKean.cn</div>
+            </div>
+            
+            <div class="upper-column info-box">
+              <div class="icon-box"><span class="icon iconfont icon-dizhi1"></span></div>
+              公司地址
+              <div class="light-text">陕西省西安市长安区航天基地<br/>东长安街501号</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer Bottom-->
+    <div class="footer-bottom">
+      <div class="auto-container">
+        <div class="row clearfix"> 
+          
+          <!--column-->
+          <div class="column col-md-6 col-sm-6 col-xs-12">
+            <div class="copyright">Copyright &copy; 2017西安科安软件有限责任公司&nbsp;&nbsp;&nbsp;
+			<A href="https://beian.miit.gov.cn/" target="_blank"><SPAN>陕ICP备17008975号&nbsp;&nbsp;&nbsp;</SPAN></A>
+			</div>
+          </div>
+          <!--column-->
+          <div class="column col-md-6 col-sm-6 col-xs-12">
+            <ul>
+              <li><a href="about-us.html">公司介绍</a></li>
+              <li><a href="contact.html">关于我们</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<!--End pagewrapper--> 
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".main-header" style="display: block;"><span class="fa iconfont icon-arrow_bold_up"></span></div>
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="js/owl.js"></script> 
+<script src="js/wow.js"></script> 
+<script src="js/script.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/unslider.min.js"></script>
+<script>
+
+$(document).ready(function(e) {
+
+    var unslider04 = $('#b04').unslider({
+
+		dots: true
+
+	}),
+
+	data04 = unslider04.data('unslider');
+
+	
+
+	$('.unslider-arrow04').click(function() {
+
+        var fn = this.className.split(' ')[1];
+
+        data04[fn]();
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0653ce9f1f6073297dde753d360a737b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
