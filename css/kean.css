@@ -868,6 +868,13 @@ margin-bottom: 16px;}
 .welcome-section .content-column .fact-counter .inner-column .counter-title { font-size: 14px; font-weight: 400; color: #222222; }
 /*Video Box*/
 
+/* 修改产品介绍2的图片格式 */
+.info-section .video-box .image img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+  }
+
 .welcome-section .video-box { position: relative; }
 .welcome-section .video-box .image img { max-width: 100%;	height: auto;position: relative;  }
 /*	width: 100%; } */
